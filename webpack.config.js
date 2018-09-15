@@ -4,12 +4,12 @@ const Critters = require('critters-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
-const HASH = 'contenthash';
+const HASH = 'hash';
 
 module.exports = {
   mode: 'none',
   output: {
-    filename: `[name].${HASH}.js`,
+    filename: `[name].[${HASH}].js`,
     publicPath: '/',
   },
   plugins: [
