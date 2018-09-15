@@ -2,6 +2,11 @@
 
 Reproduction for an issue in prerender-loader when loading css stylesheets imported by dynamic chunks.
 
+Issues: 
+
+* https://github.com/GoogleChromeLabs/prerender-loader/issues/17
+* https://github.com/GoogleChromeLabs/critters/issues/7
+
 ## Background
 
 There is an error when using `mini-css-extract-plugin` in conjunction with `prerender-loader` and code-splitting.
